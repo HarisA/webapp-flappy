@@ -1,0 +1,19 @@
+h1 {
+    color: darkblue;
+    font-size: 48px;
+    font-style: italic;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.score {
+color: gray;
+}
+
+.gold {
+color: gold;
+}
+
+#gameLink {
+    text-align: center;
+    border: 1px solid gray;
+}
