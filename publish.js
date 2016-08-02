@@ -24,5 +24,5 @@ exec("git config --global user.email " + email, printer);
 console.log("Commiting code locally");
 exec("git add .", printer);
 exec("git commit -a -m \"latest update \"" + Date.now(), printer);
-console.log("Pusing code to github");
+console.log("Pushing code to github");
 exec("git push origin master:gh-pages --force", printer);
